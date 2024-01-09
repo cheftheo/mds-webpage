@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ed63d6b.css",
+    "main.js": "/static/js/main.faadb370.js",
+    "static/media/bg.png": "/static/media/bg.c2ba6a84b0ea09060e4b.png",
+    "static/media/mds-logo.png": "/static/media/mds-logo.94d537e1460e67647afb.png",
+    "index.html": "/index.html",
+    "main.6ed63d6b.css.map": "/static/css/main.6ed63d6b.css.map",
+    "main.faadb370.js.map": "/static/js/main.faadb370.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed63d6b.css",
+    "static/js/main.faadb370.js"
+  ]
+}

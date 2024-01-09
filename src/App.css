@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+}
+
+img{
+  pointer-events: none;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.App > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.App > header {
+  display: block;
+  width: 100%;
+  height: 60%;
+}
+
+.App > header > img {
+  width: 101px;
+  height: 101px;
+  object-fit: cover;
+  display: block;
+  top: -1%;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  left: 5%;
+}
+
+.App > header > button {
+  color: rgba(146, 146, 146, 0.53);
+  font-size: 80%;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: none;
+  padding: 2%;
+  letter-spacing: 11.64px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  left: -16%;
+  text-transform: uppercase;
+}
+
+.App > header > button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.App > header > button:nth-child(2) {
+  color: white;
+}
+
+
+
+/* section start */
+.App > section {
+  padding: 0 5%;
+  position: absolute;
+}
+
+.App > section > h1 {
+  display: flex;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 3.52px;
+  position: relative;
+  left: 0%;
+  width: 100%;
+}
+
+.App > section > h1:nth-child(1) {
+  display: flex;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 3.52px;
+  position: relative;
+  left: 0%;
+  margin-top: 18%;
+}
+
+.App > section > h1:nth-child(2) {
+  display: flex;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 3.52px;
+  position: relative;
+  left: 0%;
+  margin-top: 8%;
+}
+
+.App > section > h1:nth-child(3) {
+  display: flex;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 3.52px;
+  position: relative;
+  left: 0%;
+  margin-top: -5%;
+}
+
+.App > section > h1 > a.purple-text-disc {
+  color: #7E7BFF;
+  text-decoration: none;
+  margin-left: 1.5%;
+}
+
+.App > section > h2 {
+  color: rgb(71, 71, 71);
+  font-size: 12px;
+  left: 0%;
+  width: 65%;
+  text-align: left;
+  font-weight: 400;
+  margin-top: -3%;
+}
+
+.App > section > h1 > p.sec-text {
+  position: fixed;
+  width: 20%;
+  padding: 0.5%;
+  text-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 59px;
+  background: rgba(30, 30, 30, 0.67);
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 120%;
+  letter-spacing: 7.8px;
+}
